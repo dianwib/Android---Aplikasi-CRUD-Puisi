@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    android:background="@drawable/login_gradien"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".Materi1Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/login_gradien">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="vertical"
+            android:padding="80px">
+
+            <TextView
+                android:id="@+id/textEktri"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="Karakteristik"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"  />
+
+            <TextView
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"
+                android:id="@+id/textmateriektrin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Karakteristik puisi ditinjau dari unsur kebahasaannya (Waluyo, 2003: 2-14) antara lain: \n 1.	Pemadatan Bahasa\n Bahasa dipadatkan supaya membentuk pemaknaan lain. sebuah puisi akan menarik jika membentuk larik atau bait-bait yang berbeda dari hakikatnya. Dengan bentuk seperti itu, diharapkan larik atau bait tersebut memiliki makna luas yang menarik. \n 2.	Pemilihan Kata Khas\n Kata yang dipilih pengarang biasanya dipertimbangkan dengan matang dari beragam aspek dan pengucapan. Seringkali kata-kata tertentu diganti berulang kali sebab belum dapat mewakili pikiran dan perasaan pengarang. Beberapa faktor yang mempengaruhi adalah pemilihan diksi, makna kias, serta persamaan rima. \n 3.	Kata Konkret\n Bagi pengarang, kata-kata yang dikonkretkan akan terkesan lebih menarik dan lebih jelas. Namun, seringkali pembaca sulit menafsirkan kata-kata yang dikonkretkan oleh pengarang. \n 4.	Pengimajian\n Pengimajian merupakan susunan kata yang dapat memperjelas pemahaman pembaca mengenai apa yang dituangkan pengarang dalam tulisannya. \n 5.	Irama \n Irama berkaitan dengan pengulangan frasa, kalimat, bunyi dan kata. dalam puisi, irama sangat diperlukan untuk menimbulkan gaya pada suatu baris puisi agar memperindah puisi. \n 6.	Tata wajah\n Pada puisi mutakhir (1976-an) banyak beredar puisi yang menonjolkan tata wajah, bahkan banyak pula yang menciptakan puisi seperti gambar. Puisi seperti itu disebut puisi konkret sebab tata wajahnya berbentuk gambar yang memaknai maksud tertentu. "
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="203dp"
+        android:onClick="fungsiback"
+        app:srcCompat="@drawable/button_kiri"
+        tools:ignore="VectorDrawableCompat" />
+
+</RelativeLayout>

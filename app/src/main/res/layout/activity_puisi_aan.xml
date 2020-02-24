@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/login_gradien"
+    tools:context=".PuisiAanActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/login_gradien">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="vertical"
+            android:padding="80px">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TIDAK ADA NEW YORK HARI INI"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"  />
+
+            <TextView
+                android:layout_gravity="center_vertical|end"
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Tidak ada New York hari ini.\n Tidak ad New York kemarin.\n Aku sendiri dan tidak berada di sini\n Semua orang adalah orang lain\n\n  Bahasa ibu adalah kamar tidurku\n Kupeluk tubuh sendiri\n Dan cinta-kau tak ingin aku\n mematikan mata lampu\n\n  Jendela terbuka dan masa lampau memasukiku sebagai angin\n Meriang. Meriang. Aku meriang\n Kau yang panas di kening\n Kau yang dingin di kenang\n\n  Hari ini tidak pernah ada\n Kemarin tidak nyata\n Aku sendiri dan tidak menulis puisi ini\n Semua kata tubuh mati semata\n\n  Puisi adalah museum yang lenggang\n Masa remaja dan negeri jauh\n Jatuh dan patah\n Foto-foto hitam putih\n\n  Aroma kemeja ayah dan senyum perempuan yang tidak membiarkanku merindukan senyum lain\n Tidak ada pengunjung\n Tidak ada pengunjung\n  Di balik jendela\n\n Langit sedang mendung\n Tidak ada puisi hari ini\n Tidak ada puisi kemarin\n Aku menghapus seluruh kota sebelum sempat menuliskannya "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"  />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="KETIKA ADA YANG BERTANYA TENTANG CINTA"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"  />
+
+            <TextView
+                android:layout_gravity="center_vertical|end"
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Ketika aku bertanya kepadamu tentang cinta, Kau melihat langit membentang lapang.\n Menyerahkan diri untuk dinikmati, tapi menolak untuk dimiliki.\n\n  Ketika kau bertanya kepadaku tentang cinta, Aku melihat nasib manusia.\n Terkutuk hidup di bumi\n Bersama jangkauan lengan mereka yang pendek\n dan kemauan mereka yang panjang.\n\n  Ketika aku bertanya kepadamu tentang cinta,\n  Kau bayangkan aku seekor burung kecil yang murung.\n Bersusah payah terbang mencari tempat sembunyi\n dari mata peluru para pemburu.\n\n  Ketika kau bertanya kepadaku tentang cinta, aku bayangkan kau satu-satunya pohon yang tersisa.\n Kau kesepian dan mematahkan cabang-cabang\n sendiri.\n\n  Ketika ada yang bertanya tentang cinta, apakah sungguh yang dibutuhkan adalah kemewahan kata-kata atau cukup ketidaksempurnaan kita?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"  />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="AKU TIDAK PERNAH BETUL-BETUL PULANG"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"  />
+
+            <TextView
+                android:layout_gravity="center_vertical|end"
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Aku tidak pernah betul-betul pulang.\n Tidak bisa. \n Ke semua tempat kuseret tubuh sendiri \n Sebagai petualang tersesat—bahkan di negeri \n Jauh tempat aku lahir dan seorang perempuan mengajariku tersenyum kepada diri sendiri. \n \n  Tidak pernah ada rumah. \nTidak ada. \n Cuma ada mimpi buruk yang sekali waktu terburu-buru membangunkan dan meminta aku pergi. \nMembelahku. Mengubah ingatan jadi hukuman. \n Meletakkan jiwaku di antara keinginan dan keengganan kembali, di antara perkara-perkara yang mungkin dan tidak mungkin selesai. \n \n  Kulihat diriku tertimbun reruntuhan masa remajaku di kota yang mencintai para pembenci. \n Kulihat ayah di pekarangan memasukkan serpihan-serpihan  kaca jendela ke saku celana. \nIbu tidak ada  di dapur dan di mana-mana. \nTetapi, di jalan-jalan, \n negara melintas sebagai perayaan ringkas dan huru-hara yang tidak pernah tuntas. \n \n  Setiap hari tumbuh retakan baru di tubuhku. \n Kuterima seluruh seolah kelak terbit matahari \n lain dari sana. \nRibuan matahari. "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"  />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="TIDAK ADA MATAHARI SENJA DI SINI "
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"  />
+
+            <TextView
+                android:layout_gravity="center_vertical|end"
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Tidak ada matahari senja di sini,\n Kecuali yang terbit menjelang malam dari jendel Gedung-gedung menjulang. \n Bersinar seperti senyum tiruan merahasiakan derita manusia ribuan tahun.\n\n  Di jalan-jalan, orang gegas tak berani menatap langit.\nTakut mengakui kemalangan sendiri.\n Mereka tidak paham kesengsaraan seseorang kolam paling bening untuk memandang kesetiaan\n orang lain.\n\n  Aku berhenti di depan kafe. \nMenonton ilmu bisu di kaca jendelanya. \nTidak ada orang bicara. \nBahasa melarikan diri dari lidah manusia pada jam-jam pulang kerja.\n\n  Aku menunggu malam menghapus separuh diriku.\n\n  Aku ingin menyelusuri jalan-jalan kota New York.\n Akan kubiarkan semua orang melewatiku. \n Aku tidak mau ada orang menoleh kepadaku. \n Aku tidak butuh wajah-wajah asing itu. \n Anak kecil dalam diriku ingin bermain tebak-tebakan. \n Punggung dan pinggang siapa paling menyerupai milikmu.\n Tidak ada yang peduli, jika aku salah dan kalah berkali-kali. \n Tidak ada yang peduli. \n Termasuk malam dan aku sendiri.\n\n\n  Sumber : Manyur, Aan. 2016. Tidak Ada New York Hari Ini. Jakarta: PT Gramedia Pustaka Utama."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"  />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="203dp"
+        android:onClick="fungsiback"
+        app:srcCompat="@drawable/button_kiri"
+        tools:ignore="VectorDrawableCompat" />
+</RelativeLayout>

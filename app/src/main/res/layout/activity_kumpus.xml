@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    tools:context=".KumpusActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".2"
+        android:background="@drawable/login_gradien" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:onClick="fungsiback"
+        app:srcCompat="@drawable/button_home"
+        tools:ignore="VectorDrawableCompat" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_BERNARDBATUBARA"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_kumpusbernard"
+            android:onClick="bernard"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_marginBottom="20dp"
+            android:id="@+id/button_AANMANSYUR"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_kumpusaan"
+            android:onClick="aan" />
+
+        <Button
+            android:layout_marginBottom="20dp"
+            android:id="@+id/button_BRIANKHRISNA"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_kumpusbrian"
+            android:onClick="brian" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/login_gradien"
+    tools:context=".PuisiBernardActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/login_gradien">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="vertical"
+            android:padding="80px">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="PERCAYA"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Kamu membuatku mendalami apa yang tadinya hanya aku sentuh dengan ujung jari kakiku.\nKamu membuatku meraih apa yang tadinya hanya aku gapai dengan ujung telunjukku.\nKamu membuatku tiba di tempat yang tadinya hanya aku lihat dari kejauhan. \nKamu membuatku berkelana ke ruang dan waktu yang tadinya hanya mampu aku bayangkan.\n\nKamu. adalah kamu.\nAdalah kamu yang membuatku percaya pada diriku sendiri. \nTerima kasih untuk ketakjuban selama ini.\nAku berharap dapat menemuimu dalam mimpi dan kenyataan, dengan wujud terbaikku. \nKarena kamu layak untuk mendapat tidak kurang dari yang terbaik.\n"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="MELANGKAH"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Cinta bukan sekadar persoalan bagaimana melangkah bersama, \ntetapi juga tentang mempertahankan langkah pada saat salah satu mulai lelah, \nagar tetap mampu berjalan.\n\nCinta bukan tentang berlari kencang mencapai tujuan, \ntetapi tentang menikmati perjalanan, \nlangkah demi langkah, \ntidak penting bergegas atau lambat.\n\nCinta adalah tentang menghayati setiap langkah yang telah diambil, \ndan meletakkan kepercayaan pada langkah satu sama lain."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="METAFORA OMBAK"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Kalau kamu memandangku sekilas, \nkamu akan melihatku tak ubahnya ombak yang hanya menjalani kewajibannya sebagai ombak\nmuncul karena tiupan angin, \nbergerak mendekati pantai dengan kecepatan biasa, \nnyaris tanpa ambisi, \nlalu pecah seadanya menjadi buih karena memang harus pecah.\n\nNamun, jika kamu bertahan duduk di tepi pantai lebih lama lagi dan memperlihatkan bagaimana aku bergerak dari waktu ke waktu, \nkamu akan melihatku sebagai ombak yang melakukan tugas seluruh macam ombak,\nmeski terkadang pantai yang kuhampiri tidak memberi apa-apa selain keheningan dan tidak melakukan apa-apa selain memecah diriku, \naku akan terus ada dan datang dan tidak pernah berhenti untuk mencapai dan menggapainya.\n\naku ombak yang akan terus mendekatimu, apa pun yang kamu lakukan terhadapku."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="RUMAH"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Aku mencintainya karena ia mencintai kata-kata. \nRumah terbaik bagi kata-kata adalah buku. \nAku mencintainya lebih lagi karena ia mencintai buku-buku. \nAku mencintainya karena ia adalah buku bagi kata-kata yang tidak bisa aku tuliskan. \nAku mencintainya karena dia menjadi rumah bagi setiap kecemasan yang tidak perlu aku tunjukkan."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="TIDUR TANPA BERMIMPI"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Saat tidurku tidak bermimpi,\nitu pertanda bahwa semesta mimpi sedang berkata kepadaku,\n“hei, tidak ada hal lebih manis yang dapat kau temukan di sini daripada di kenyataanmu. \nKembalilah segera pada kenyataanmu. \nDi sana kenyataanmu telah menunggmu, mencintaimu,\nmemperlihatkanmu sepenuh tenaga dan waktunya. \ncintailah kenyataanmu.”\n\nMaka, dengan cara seperti itulah aku berkali-kali sadar \nBahwa seindah-indahnya mimpiku\nKenyataanku lebih indah.\n\nkamu, adalah kenyataanku.\nYang lebih indah dari ribuan mimpi-mimpiku.\n\n\n    Sumber: Batubara, Bernard. 2017. Luka Dalam Bara. Jakarta: PT. Mizan Publika."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="203dp"
+        android:onClick="fungsiback"
+        app:srcCompat="@drawable/button_kiri"
+        tools:ignore="VectorDrawableCompat" />
+</RelativeLayout>

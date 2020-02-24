@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    tools:context=".FirebaseDBCreateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".2"
+        android:background="@drawable/login_gradien" />
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"
+                android:id="@+id/et_judulbarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:hint="Judul Puisi"
+                android:inputType="text"
+                android:textAlignment="center" />
+
+            <EditText
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"
+                android:overScrollMode="always"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:lines="6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:scrollHorizontally="false"
+                android:layout_margin="20dp"
+                android:id="@+id/et_isibarang"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:hint="Ketik Puisimu Disini..."
+                android:textAlignment="center" />
+
+            <EditText
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:layout_margin="20dp"
+                android:textAlignment="center"
+                android:id="@+id/et_namabarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Pengarang"
+                android:inputType="text" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/bt_reset"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:onClick="fungsireset"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_reset" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="59dp"
+                    android:layout_height="59dp"
+                    android:onClick="fungsiback"
+                    app:srcCompat="@drawable/button_kiri"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <Button
+                    android:id="@+id/bt_submit"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_kirimpuisi" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

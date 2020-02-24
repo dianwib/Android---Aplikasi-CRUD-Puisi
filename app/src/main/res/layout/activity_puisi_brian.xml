@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/login_gradien"
+    tools:context=".PuisiBrianActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/login_gradien">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="vertical"
+            android:padding="80px">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="HANYA AKU"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Siapa pun pendampingmu kelak, kumohon ingatlah aku.\nSebagai satu untukmu yang tak pernah dua.\nAsing yang tak pernah using.\n yang selalu berusaha penuh, yang tak pernah mencintaimu dengan separuh.\nIngatlah aku.\nSeseorang yang doanya meminta namamu sebagai pendamping sampai akhir."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="ANYTHING FOR YOU"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Tertawalah yang lepas ketika bersamaku.\nBerbuatlah semaumu jika di sampingku.\nMakanlah apa pun di hadapanku.\nBertingkah konyol lah kapan pun kau mau.\nBicarakan apa saja denganku.\nJadilah dirimu sendiri di depanku.\n\n\nMeski hadirku hanya sebagai penghibur untukmu.\nMeski ragaku hanya sekedar pendamping untuk laramu.\nMeski ketika bersamaku, pikiranmu memikirkan orang lain selain aku.\nSelama kau Bahagia, aku tak apa.\nDi depanku kau bisa menjadi dirimu sendiri yang tak kau tunjukkan ke banyak mata.\nDan percayalah, aku akan tetap mencintaimu sepenuh hati tanpa sedikit pun ada ragu di dalamnya.\n"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="AKU MASIH"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Saat di mana kau berpikir bahwa aku sudah melupakanmu sebenarnya tanpa kau tahu, aku masih.\nSaat di mana kau berpikir aku tidak menangisimu\nsebenarnya tanpa kau tahu, aku selalu.\nSaat di mana kau berpikir aku sudah menemukan bahagia sebenarnya tanpa kau tahu, diam-diam aku mendoakan namamu.\nSaat di mana kau berpikir aku telah pergi\nsebenarnya tanpa kau tahu, \ndiam-diam aku tetap menunggu, \ndiam-diam aku masih tetap menunggu"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite"/>
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="AKU TAHU"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Aku tahu perihnya ditinggalkan karena digantikan\nAku tahu sakitnya tak dianggap padahal selalu ada\nAku mengerti kecewanya janji yang tidak ditepati\nAku tahu pedihnya dicintai separuh padahal aku mencintai dengan penuh\n\nAku tahu pusingnya cemburu tapi tak berhak sedikit pun\nAku tahu cemasnya mengkhawatirkan tapi tak berani mengatakan\nAku tahu dan aku mengerti semua itu\n\nMaka maafkan aku jika hari ini aku begitu pemilih untuk menjatuhkan hati lagi\nAku bukannya tak mau,\nhanya saja aku masih sedikit takut dikecewakan lagi oleh orang-orang yang kupercaya"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="SELESAI SEBELUM DIMULAI"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Bagiku, kau itu\nYang kuraih, namun tak bisa kugenggam\nYang kutemukan, namun tak pernah kudapatkan\nYang kuyakin bahagia, namun tak mampu berjalan bersama\nYang sama-sama jatuh cinta, namun sama-sama tak bisa berbuat apa-apa\nYang saling berdoa, namun tak sanggup untuk meminta\nYang mampu kurasa begitu hangat, namun tak berhak untuk memeluk begitu erat\nYang aku tunggu-tunggu, namun menjadi yang terlewatkan\n\nBagiku, kau adalah yang seperti itu\nYang selesai bahkan sebelum dimulai\nYang kucintai dengan begitu sangat, namun hanya sekadar untuk diingat\n\n\n Sumber : Khrisna, Brian. 2018. The Book Of Almost. Jakarta: Mediakita."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="203dp"
+        android:onClick="fungsiback"
+        app:srcCompat="@drawable/button_kiri"
+        tools:ignore="VectorDrawableCompat" />
+</RelativeLayout>

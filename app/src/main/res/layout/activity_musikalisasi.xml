@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    tools:context=".MusikalisasiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".2"
+        android:background="@drawable/login_gradien" >
+
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:onClick="fungsiback"
+        app:srcCompat="@drawable/button_home"
+        tools:ignore="VectorDrawableCompat" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+
+            android:layout_height="267dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/textViewJudulVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#064170"
+            android:text='"Silahkan Pilih Video"'
+            android:textAlignment="center"
+            android:textColor="#F2F7F6"
+            app:fontFamily="@font/amita" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_above="@id/imageView4"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_padasuatuharinanti"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="video2"
+                android:text="Pada Suatu Hari Nanti - Sapardi Djoko Damono" />
+
+            <Button
+                android:id="@+id/button_betapategarnyaaku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="video3"
+                android:text="Batas - M. Aan Mansyur" />
+
+            <Button
+                android:id="@+id/button_hujanbulanjuni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="video1"
+                android:text="Hujan Bulan Juni - Sapardi Djoko Damono" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
