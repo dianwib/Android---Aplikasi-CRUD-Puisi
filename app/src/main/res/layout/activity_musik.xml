@@ -61,39 +61,43 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <Button
                 android:id="@+id/button_musik0"
+                android:layout_width="200dp"
 
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
+                android:background="@drawable/button_musik1"
                 android:onClick="musik0"
-                android:text="Resah - Payung Teduh" />
+               />
 
             <Button
                 android:id="@+id/button_musik1"
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="musik1"
-                android:text="Rahasia - Payung Teduh" />
+                android:layout_marginTop="10dp"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_musik3"
+                android:onClick="musik1" />
 
             <Button
+                android:layout_marginTop="10dp"
                 android:id="@+id/button_musik2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="musik2"
-                android:text="Biarkan - Payung Teduh" />
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_musik2"
+                android:onClick="musik2" />
 
             <Button
+                android:layout_marginTop="10dp"
                 android:id="@+id/button_musik3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="musik3"
-                android:text="Akad - Payung Teduh" />
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_musik4"
+                android:onClick="musik3" />
 
             <Space
                 android:layout_width="match_parent"

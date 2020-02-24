@@ -58,12 +58,12 @@ public class MusikActivity extends AppCompatActivity {
 
 
     public void musik2(View view) {
-        muatvideo("Biarkan - Payung Teduh","biarkan");
+        muatvideo("Berdua Saja - Payung Teduh","berduasaja");
 
     }
 
     public void musik1(View view) {
-        muatvideo("Rahasia - Payung Teduh","rahasia");
+        muatvideo("Di Ujung Malam - Payung Teduh","diujungmalam");
 
     }
     public void musik0(View view) {

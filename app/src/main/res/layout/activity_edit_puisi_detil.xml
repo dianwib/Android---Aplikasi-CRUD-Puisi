@@ -100,7 +100,7 @@
                     android:layout_width="100dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="10dp"
-                    android:background="@drawable/button_kirimpuisi" />
+                    android:background="@drawable/button_update" />
             </LinearLayout>
 
         </LinearLayout>

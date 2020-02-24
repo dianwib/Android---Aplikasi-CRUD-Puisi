@@ -62,29 +62,30 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:orientation="vertical">
 
             <Button
                 android:id="@+id/button_padasuatuharinanti"
 
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="video2"
-                android:text="Pada Suatu Hari Nanti - Sapardi Djoko Damono" />
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_vidio3"
+                android:onClick="video2" />
 
             <Button
                 android:id="@+id/button_betapategarnyaaku"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="video3"
-                android:text="Batas - M. Aan Mansyur" />
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_vidio2"
+                android:onClick="video3" />
 
             <Button
                 android:id="@+id/button_hujanbulanjuni"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="video1"
-                android:text="Hujan Bulan Juni - Sapardi Djoko Damono" />
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_vidio1"
+                android:onClick="video1" />
 
             <Space
                 android:layout_width="match_parent"
