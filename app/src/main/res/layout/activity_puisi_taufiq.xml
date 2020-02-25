@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:layout_gravity="center"
     android:background="@drawable/login_gradien"
-    tools:context=".PuisiBrianActivity">
+    tools:context=".PuisiTaufiqActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Putih, Putih, Putih"
+                android:text="Kembalikan Indonesia Padaku"
                 android:textAllCaps="false"
                 android:textSize="40sp"
                 android:textStyle="bold"
@@ -42,7 +42,7 @@
                 android:layout_gravity="center_vertical|end"
                 android:layout_marginTop="50px"
                 android:gravity="fill_horizontal"
-                android:text="Meratap bagai bayi\nTerkapar bagai si tua renta\nDi padang Mahsyar\nDi padang penantian\nDi depan pintu gerbang janji keabadian\nSaksikan beribu-ribu jilbab\nHai! Bermilyar-milyar jilbab! \nSamudera putih\nLautan cinta kasih\nGelombang sejarah\nPengembaraan amat panjang\nDi padang Mahsyar\nMenjelang hari perhitungan\nSeribu galaksi\nHamparan hari perhitungan\nSeribu galaksi\nHamparan jiwa suci\nBersujud\nPutih, putih, putih\nBersujud\nMenyeru belaian tangan kekasih\nBersujud\nDan alam raya\nJagad segala jagad\nBintang-bintang dan ruang kosong\nMendengar panggilan itu\nDengan telinga ilmu seratus abad: \n-wahai jiwa bening! \nWahai muthmainah\nKembalilah kepada tuhanmu\nDengan rela dan direlakan\nMasuklah ke pihakku\nMasuklah di sorgaku\nWahai jiwa, wahai yang telah jiwa! \nWahai telaga\nYang hening\nHingga tiada! "
+                android:text="Hari depan Indonesia adalah dua ratus juta mulut yang menganga\n\nHari depan Indonesia adalah bola-bola lampu 15 watt,\nsebagian berwarna putih dan sebagian hitam, yang\nmenyala bergantian.\n\nHari depan Indonesia adalah pertandingan ping-pong siang\nmalam dengan bola yang bentuknya seperti telur angsa\n\nHari depan Indonesia adalah pulau Jawa yang tenggelam arena seratus juta penduduknya\n\nKembalikan Indonesia padaku\n\nHari dpan Indonesia adalah satu juta orang main \nping-pong siang malam dengan bola telur angsa di\nbawah sinar lampu 15 watt\n\nHari depan Indonesia adalah pulau Jawa yang pelan-\npelan tenggelam lantaran berat bebannya kemudian\nangsa-angsa berenang-renang di atasnya. \n\nHari depan Indonesia adalah dua ratus juta mulut\nyang menganga, dan di dalam mulut itu ada bola-bola\nlampu 15 watt, sebagian putih dan sebagian hitam,\nyang bernyala bergantian.\n\nHari depan Indonesia adalah angsa-angsa putih yang \nberenang-renang sambil main ping-pong di atas pulau\nJawa yang tenggelam dan membawa seratus juta bola\nlampu 15 watt ke dasar lautan.\n\nKembalikan Indonesia padaku\n\nHari depan Indonesia adalah pertandingan ping-pong \nsiang malam dengan bola bentuknya seperti\ntelur angsa\n\nHari depan Indonesia adalah pulau Jawa yang\ntenggelam karena seratus juta penduduknya\n\nHari depan Indonesia adalah bola-bola lampu 15\nwatt, sebagian putih dan sebagian hitam, yang menyala bergantian.\n\nKembalikan Indonesia padaku"
                 android:textSize="20sp"
 
                 app:fontFamily="@font/azurite" />
@@ -52,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="end"
-                android:text="(Lautan Jilbab, 1989)"
+                android:text="(Sajak-sajak Ladang Jagung, 1975)"
                 android:textAlignment="textEnd"
                 android:textSize="20sp"
                 android:textStyle="italic"
@@ -64,7 +64,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="50px"
                 android:gravity="center"
-                android:text="Doa Sawah Ladang"
+                android:text="Kita Adalah Pemilik Sah Republik Ini"
                 android:textAllCaps="false"
                 android:textSize="40sp"
                 android:textStyle="bold"
@@ -77,17 +77,17 @@
                 android:layout_gravity="center_vertical|end"
                 android:layout_marginTop="50px"
                 android:gravity="fill_horizontal"
-                android:text="atas padi kautumbuhkan dari sawah\nladang bumimu, kupanjatkan syukur dan\nkunyanyikan lagu gembira sebagaimana padi itu\nsendiri berterima kasih kepadamu dan bersuka ria\n\nlahir dari tanah, menguning di sawah, menjadi\nberas di tampah, kemudian sebagai nasi memasuki tenggorokan hambamu yang gerah, adalah cara paling mulia bagi padi untuk tiba kembali di pangkuanmu\n\nbetapa gembira hati pisang yang dikuliti dan\ndimakan oleh manusia, karena demikianlah tugas luhurnya di dunia, pasrah di pengolahan usus para \nhamba, menjadi sari inti kesehatan dan\nkesejahteraannya\n\ndemikian pun betapa riang udara yang dihirup,\nair yang direguk, sungai yang mengaliri persawahan,\nbermilyar ikan, serta kandungan bumimu yang menyiapkan berjuta macam hiasan\n\naku bersembahyang kepadamu, berjamaah\ndengan langit dan bumimu, dengan siang dan malammu,\ndengan matahari yang berhembus menyejukkan desa-desa"
+                android:text='Tidak ada lagi pilihan. Kita harus\nBerjalan terus\nKarena berhenti atau mundur\nBerarti hancur.\n\nApakah akan kita jual keyakinan kita\nDalam pengabdian tanpa harga\nAkan maukan kita duduk satu meja\nDengan para pembunuh tahun yang lalu\nDalam setiap kalimat yang berakhiran:\n"Duli Tuanku"?\n\nTidak ada lagi pilihan lain, kita harus\nBerjalan terus\nKita dalah manusia bermata kuyu, yang di tepi jalan\nMengacungkan tangan untuk plet dan bus yang penuh\nKita adalah berpuluh juta yang bertahun hidup sengsara\n\nDipukul banjir, gunung api, kutuk dan hama\nDan bertanya-tanya diam inikah yang namanya merdeka\nKita yang tak punya kepentingan dengan seribu slogan\nDan seribu pengeras suara yang hampa suara\nTidak ada lagi pilihan lain. kita harus\nBerjalan terus.'
                 android:textSize="20sp"
                 android:textStyle="normal"
                 app:fontFamily="@font/azurite" />
 
             <TextView
-                android:id="@+id/sumber2"
+                android:id="@+id/sumber3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="end"
-                android:text="(Cahaya Maha Cahaya, 1988)"
+                android:text="(Tirani, 1966)"
                 android:textAlignment="textEnd"
                 android:textSize="20sp"
                 android:textStyle="italic"
@@ -95,14 +95,14 @@
 
             <TextView
                 android:id="@+id/sumberAsal"
-                android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Sumber: Waluyo, J. Herman. 2003. Apresiasi Puisi. Jakarta: PT Gramedia Pustaka Utama"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                app:fontFamily="@font/azurite"
-                android:text="Sumber: Waluyo, J. Herman. 2003. Apresiasi Puisi. Jakarta: PT Gramedia Pustaka Utama)"
-                android:gravity="center" />
+                app:fontFamily="@font/azurite" />
 
         </LinearLayout>
     </ScrollView>

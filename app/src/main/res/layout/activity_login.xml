@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#03A9F4"
+    android:background=" #8bc24a"
     android:gravity="center"
     tools:context=".LoginActivity">
 
     <ScrollView
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:alpha=".2"
-        android:background="@drawable/login_gradien"
-        android:layout_height="match_parent"/>
+        android:background="@drawable/login_gradien" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,12 +30,6 @@
             android:layout_width="match_parent"
             android:layout_height="150dp" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="111dp"
-            android:layout_height="42dp"
-            app:srcCompat="@drawable/button_masuk" />
-
         <TextView
             android:id="@+id/textView2"
             android:layout_width="305dp"
@@ -44,4 +38,13 @@
             android:textSize="36sp" />
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView2"
+        android:layout_width="111dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/button_masuk" />
 </RelativeLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="#2196F3"
+    android:background=" #8bc24a"
     android:orientation="vertical"
     tools:context=".MusikActivity">
 
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alpha=".2"
-        android:background="@drawable/login_gradien" >
+        android:background="@drawable/login_gradien">
 
     </ScrollView>
 
@@ -43,11 +43,11 @@
             android:backgroundTint="@android:color/transparent" />
 
         <TextView
-            android:padding="2dp"
             android:id="@+id/textViewJudulVideo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#064170"
+            android:background="#009688"
+            android:padding="2dp"
             android:text='"Silahkan Pilih Musik"'
             android:textAlignment="center"
             android:textColor="#F2F7F6"
@@ -57,13 +57,13 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_above="@id/imageView4"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageView4">
 
         <LinearLayout
-            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:orientation="vertical">
 
             <Button
@@ -72,30 +72,29 @@
 
                 android:layout_height="60dp"
                 android:background="@drawable/button_musik1"
-                android:onClick="musik0"
-               />
+                android:onClick="musik0" />
 
             <Button
                 android:id="@+id/button_musik1"
-                android:layout_marginTop="10dp"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/button_musik3"
                 android:onClick="musik1" />
 
             <Button
-                android:layout_marginTop="10dp"
                 android:id="@+id/button_musik2"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/button_musik2"
                 android:onClick="musik2" />
 
             <Button
-                android:layout_marginTop="10dp"
                 android:id="@+id/button_musik3"
                 android:layout_width="200dp"
                 android:layout_height="60dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/button_musik4"
                 android:onClick="musik3" />
 

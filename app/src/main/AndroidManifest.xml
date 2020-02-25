@@ -6,12 +6,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/logo_apk"
+        android:label="Let's Imagine"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EditPuisiDetil"></activity>
+        <activity android:name=".Materi3Activity"></activity>
+        <activity android:name=".PuisiTaufiqActivity" />
+        <activity android:name=".PuisiSapardiActivity" />
+        <activity android:name=".PuisiRendraActivity" />
+        <activity android:name=".PuisiJokoActivity" />
+        <activity android:name=".EditPuisiDetil" />
         <activity android:name=".Materi1Activity" />
         <activity android:name=".DaftarMateriActivity" />
         <activity android:name=".LihatPuisiDetil" />

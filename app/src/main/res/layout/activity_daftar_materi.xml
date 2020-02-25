@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="#2196F3"
+    android:background=" #8bc24a"
     android:orientation="vertical"
     tools:context=".DaftarMateriActivity">
 
@@ -17,6 +17,7 @@
 
 
     <ImageView
+
         android:id="@+id/imageView4"
         android:layout_width="59dp"
         android:layout_height="59dp"
@@ -27,33 +28,46 @@
         tools:ignore="VectorDrawableCompat" />
 
     <LinearLayout
+
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
         android:orientation="vertical">
 
         <Button
+
+            android:id="@+id/button_materi1"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_karakterpuisi"
+            android:onClick="materi2"
+            android:padding="10dp" />
+
+        <Button
             android:id="@+id/button_materi0"
-            android:layout_width="210dp"
-            android:layout_height="70dp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
             android:background="@drawable/button_defpuisi"
             android:onClick="materi0"
+            android:layout_marginTop="10dp"
             android:textAllCaps="true" />
 
         <Button
-            android:id="@+id/button_materi1"
-            android:layout_width="210dp"
-            android:layout_height="70dp"
-            android:background="@drawable/button_karakterpuisi"
-            android:onClick="materi1" />
+            android:id="@+id/button_materi2"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_jenispuisi"
+            android:onClick="materi1"
+            android:layout_marginTop="10dp" />
 
         <Button
-            android:id="@+id/button_materi2"
-            android:layout_width="210dp"
-            android:layout_height="70dp"
-            android:background="@drawable/button_jenispuisi"
-            android:onClick="materi2" />
+            android:id="@+id/button_materi3"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_unsurpuisi"
+            android:onClick="materi3"
+            android:layout_marginTop="10dp" />
 
     </LinearLayout>
 

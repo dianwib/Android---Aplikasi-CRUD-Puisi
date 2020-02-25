@@ -28,6 +28,10 @@ public class DaftarMateriActivity extends AppCompatActivity {
         Intent a = new Intent(DaftarMateriActivity.this, Materi1Activity.class);
         startActivity(a);
     }
+    public void materi3(View view) {
+        Intent a = new Intent(DaftarMateriActivity.this, Materi3Activity.class);
+        startActivity(a);
+    }
 
     public void materi1(View view) {
 

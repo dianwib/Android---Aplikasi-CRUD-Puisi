@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    android:background="@drawable/login_gradien"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".Materi3Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/login_gradien">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:orientation="vertical"
+            android:padding="80px">
+
+            <TextView
+                android:id="@+id/textEktri"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_marginTop="50px"
+                android:gravity="center"
+                android:text="Unsur Unsur Pembangun Puisik"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/textmateriektrin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="1.	Pada umumnya unsur-unsur puisi dapat dibagi berdasarkan strukturnya menjadi dua jenis yakni unsur fisik dan unsur batin. \n a. Unsur Fisik Puisi \n 1.	Tipografi: Tipografi merupakan bentuk puisi yang dipenuhi dengan kata, tepi kiri kanan, dan tidak memiliki pengaturan baris hingga pada baris puisi yang tidak selalu diawali huruf besar (kapital) dan diakhiri dengan tanda titik. Namun hal semacam ini dapat menentukan pemaknaan dari suatu puisi. \n 2.	Diksi: Diksi adalah pemilihat kata yang digunakan oleh sang penyair didalam puisinya. Karena puisi bersifat memiliki bahasa yang padat maka pemilihan kata yang sesuai dan mengandung makna harus dilakukan. Pemiilihan kata dilakukan dengan mempertimbangkan irama, nada, dan estetika (keindahan bahasa). \n 3.	Imaji: Imaji atau yang lebih kerap disebut dengan imajinasi merupakan unsur yang melibatkan penggunaan indra manusia, seperti imaji penglihatan, imaji suara dan lain sebagainya. Penggunaan imaji bertujuan agar pembaca maupun pendengar dapat berimajinasi atau membayangkan bahkan merasakan apa yang dirasakan oleh penyair. \n 4.	Kata Konkret: kata konkret adalah kata yang memungkinkan terjadinya imaji, Kata konkret seperti permata senja dapat berati pantai atau tempat yang sesuai untuk melihat datangnya senja. Kata konkret bersifat imajinatif sehingga memunculkan imaji. \n 5.	Gaya Bahasa: Gaya bahasa merupakan penggunaan bahasa yang bersifat seolah olah menghidupkan  dan menimbulkan makna konotasi dengan menggunakan bahasa figuratif. Umumnya gaya bahasa yang digunakan pada puisi berbentuk majas seperti majas metafora, simile, anafora, paradoks dan lain sebagainya. \n 6.	Irama/Rima: Irama atau rima adalah persamaan bunyi di awal, tengah maupun akhir puisi. \n b.	Unsur Batin Puisi \n 1.	Tema: Tema merupakan unsur utama pada puisi karena tema berkaitan erat dengan makna yang dihasilkan dari suatu puisi. Tanpa tema yang jelas tentunya akan menghasilkan puisi yang tidak jelas maknanya. \n 2.	Nada: Nada berkaitan dengan sikap penyair terhadap pembacanya. Umumnya nada yang digunakan akan bervariasi seperti nada sombong, nada tinggi, nada rendah dan lain sebagainya. \n 3.	Amanat: Amanat merupakan pesan yang terkandung didalam sebuah puisi. Amanat dapat ditemukan dengan memaknai puisi tersebut secara langsung. \n   \n \n Sumber: \n Waluyo, J. Herman. 2003. Apresiasi Puisi. Jakarta: PT Gramedia Pustaka Utama. \n Aminuddin. 2011. Pengantar Apresiasi karya Sastra. Bandung: Sinar Baru. \n Kosasih. 2017. Buku Siswa Bahasa Indonesia SMP/MTS Kelas VIII. Jakarta : Kementerian Pendidikan dan Kebudayaan. Hal 94-119.)  "
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="203dp"
+        android:onClick="fungsiback"
+        app:srcCompat="@drawable/button_kiri"
+        tools:ignore="VectorDrawableCompat" />
+
+</RelativeLayout>

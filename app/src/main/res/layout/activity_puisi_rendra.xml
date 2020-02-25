@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/login_gradien"
+    tools:context=".PuisiRendraActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/login_gradien">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            android:orientation="vertical"
+            android:padding="80px">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Doa Seorang serdadu Sebelum Perang"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="50px"
+                android:gravity="fill_horizontal"
+                android:text="Tuhanku, Wajah-Mu membayang di kota terbakar\ndan firman-Mu terguris di atas ribuan\nKuburan yang dangkal\n\nAnak menangis kehilangan bapa\nTanah sepi kehilangan lelakinya\nBukannya benih yang disebarkan di bumi subur ini\nTetapi bangkai dan wajah mati yang sia-sia\n\nApabila malam turun nanti\nSempurnalah sudah warna dosa\nDan mesiu kembali lagi berbicara\nWaktu itu, Tuhanku,\nPerkenankanlah, aku membunuh\nPerkenankanlah aku menusukkan sangkurku\n\nMalam dan wajahku\nadalah satu warna\ndosan dan napasku\nadalah satu udara,\ntak ada lagi pilihan\nkecuali menyadari\nbiarpun bersama penyesalan\n\napa yang bisa diucapkan\noleh bibirku yang terjajah,\nsementara kulihat kedua lengan-Mu yang capai\nmendekap bumi yang mengkhianati-Mu\nTuhanku,\nErat-erat kugenggam senapangku.\nPerkenankanlah aku membunuh.\nPerkenankanlah aku menusukkan sangkurku"
+                android:textSize="20sp"
+
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/sumber1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="(Ballada Orang-orang Tercinta, 1957) "
+                android:textAlignment="textEnd"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:fontFamily="@font/azurite" />
+
+            <TextView
+                android:id="@+id/sumberAsal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Sumber: Waluyo, J. Herman. 2003. Apresiasi Puisi. Jakarta: PT Gramedia Pustaka Utama"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/azurite" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="59dp"
+        android:layout_height="59dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="203dp"
+        android:onClick="fungsiback"
+        app:srcCompat="@drawable/button_kiri"
+        tools:ignore="VectorDrawableCompat" />
+</RelativeLayout>

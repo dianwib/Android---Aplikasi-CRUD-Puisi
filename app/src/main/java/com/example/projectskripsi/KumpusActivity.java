@@ -1,10 +1,10 @@
 package com.example.projectskripsi;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class KumpusActivity extends AppCompatActivity {
 
@@ -33,4 +33,22 @@ public class KumpusActivity extends AppCompatActivity {
         Intent a =new Intent(KumpusActivity.this,PuisiAanActivity.class);
         startActivity(a);
     }
+
+    public void joko(View view) {
+        Intent a =new Intent(KumpusActivity.this,PuisiJokoActivity.class);
+        startActivity(a);
+    }
+
+    public void rendra(View view) {
+        Intent a =new Intent(KumpusActivity.this,PuisiRendraActivity.class);
+        startActivity(a);
+    }
+
+    public void sapardi(View view) {
+        Intent a =new Intent(KumpusActivity.this,PuisiSapardiActivity.class);
+        startActivity(a);}
+
+    public void taufiq(View view) {
+        Intent a =new Intent(KumpusActivity.this,PuisiTaufiqActivity.class);
+        startActivity(a);}
 }

@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:layout_gravity="center"
     android:background="@drawable/login_gradien"
-    tools:context=".PuisiBernardActivity">
+    tools:context=".PuisiSapardiActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Aku"
+                android:text="Aku Ingin"
                 android:textAllCaps="false"
                 android:textSize="40sp"
                 android:textStyle="bold"
@@ -42,7 +42,7 @@
                 android:layout_gravity="center_vertical|end"
                 android:layout_marginTop="50px"
                 android:gravity="fill_horizontal"
-                android:text=" Kalau sampai waktuku\n Ku mau tak seorang kan merayu\n Tidak juga kau\n\n Tak perlu sedu sedan itu\n Aku ini binatang jalang\n Dari kumpulannya terbuang\n\n Biar peluru menembus kulitku\n Aku tetap meradang menerjang\n\n Luka dan bisa kubawa berlari\n Berlari\n Hingga hilah pedih peri\n\n Dan aku akan lebih tidak peduli\n Aku mau hidup seribu tahun lagi "
+                android:text="Aku ingin mencintaimu dengan sederhana:\nDengan kata yang tak sempat diucapkan\nKayu kepada api yang menjadikannya abu.\n\nAku ingin mencintaimu dengan sederhana:\nDengan isyarat yang tak sempat disampaikan \nAwan kepada hujan yang menjadikannya tiada."
                 android:textSize="20sp"
 
                 app:fontFamily="@font/azurite" />
@@ -52,7 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="end"
-                android:text="(Kerikil Tajam, 1946)"
+                android:text="(Hujan Bulan Juni, 1994)"
                 android:textAlignment="textEnd"
                 android:textSize="20sp"
                 android:textStyle="italic"
@@ -64,7 +64,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="50px"
                 android:gravity="center"
-                android:text="Derai-Derai Cemara"
+                android:text="Hujan Bulan Juni"
                 android:textAllCaps="false"
                 android:textSize="40sp"
                 android:textStyle="bold"
@@ -77,27 +77,29 @@
                 android:layout_gravity="center_vertical|end"
                 android:layout_marginTop="50px"
                 android:gravity="fill_horizontal"
-                android:text="Cemara mendrai sampai jauh,\nTerasa hari akan jadi malam,\nAda beberapa dahan di tingkap merapuh,\nDipukul angin yang terpendam.\n\nAku sekarang orangnya bisa tahan,\nSudah beberapa waktu bukan kanak lagi,\nTapi dulu memang ada suatu bahan,\nYang bukan dasar perhitungan kini.\n\nHidup hanya menunda kekalahan,\nTambah terasing dari cinta sekolah rendah,\ndan tahu, ada yang tetap tidak diucapkan, \nSebelum akhirnya kita menyerah.\n"
+                android:text="Tak ada yang lebih tabah\nDari hujan bulan juni\nDirahasiakannya rintik rindunya\nKepada pohon berbungan itu.\n\nTak ada yang lebih bijak\nDari hujan bulan juni\nDihapusnya jejak-jejak kakinya\nYang ragu-ragu di jalan itu\n\nTak ada yang lebih arif\nDari hujan bulan juni\nDibiarkannya akar pohon bunga itu."
                 android:textSize="20sp"
                 android:textStyle="normal"
                 app:fontFamily="@font/azurite" />
+
             <TextView
                 android:id="@+id/sumber2"
-                android:textAlignment="textEnd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="(Kerikil Tajam, 1946)"
                 android:gravity="end"
+                android:text="(Hujan Bulan Juni, 1994)"
+                android:textAlignment="textEnd"
                 android:textSize="20sp"
                 android:textStyle="italic"
-                app:fontFamily="@font/azurite"/>
+                app:fontFamily="@font/azurite" />
 
             <TextView
                 android:id="@+id/text5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50px"
                 android:gravity="center"
-                android:text="Senja di Pelabuhan Kecil"
+                android:text="Ayat-ayat Api"
                 android:textAllCaps="false"
                 android:textSize="40sp"
                 android:textStyle="bold"
@@ -106,14 +108,13 @@
             <TextView
                 android:id="@+id/text6"
                 android:layout_width="match_parent"
-
                 android:layout_height="match_parent"
                 android:layout_gravity="center_vertical|end"
                 android:layout_marginTop="50px"
                 android:gravity="fill_horizontal"
-                android:text="Ini kali tidak ada yang mencari cinta\nDi antara gudang, rumah tua, pada cerita\nTiang serta temali, kapal, perahu tiada berlaut,\nMenghembus diri dalam mempercaya mau berpaut.\n\nGerimis mempercepat kelam. Ada juga kelepak elang\nMenyinggung muram, desir hari lari berenang\nMenemubujuk pangkal akanan. Tidak bergerak\nDan kini tanah, air tidur, hilang ombak.\n\nTiada lagi. Aku sendiri. Berjalan\nMenyisir semenanjung, masih pengap harap\nSekali tiba di ujung dan sekalian selamat jalan\nDari pantai keempat, sedu penghabisan bisa terdekap."
+                android:text="Mei, bulan kita itu, belum ditinggalkan penghujan\n\nDi mana gerangan kemarau, yang malamnya dingin\nYang langitnya bersih; yang siangnya menawarkan\nBunga randu alas dan kembang calung, yang dijemput angin\nDi bukit-bukit, yang tidak mudah tersinggung.\n\nYang lebih suka menunggu sampai penghujan.\nDengan ikhlas meninggalkan kampung-kampung\n(diusir kerumunan bunga dan kawanan burung).\n\nDi mana gerangan kemarau, yang senantiasa dahaga\nYang suka menggemaskan, yang dirinsukan penghujan."
                 android:textSize="20sp"
-
+                android:textStyle="normal"
                 app:fontFamily="@font/azurite" />
 
             <TextView
@@ -121,45 +122,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="end"
-                android:text="(Panca Raya, 1947)"
+                android:text="(Ayat-ayat Api, 2000)"
                 android:textAlignment="textEnd"
                 android:textSize="20sp"
                 android:textStyle="italic"
                 app:fontFamily="@font/azurite" />
-
-            <TextView
-                android:id="@+id/text7"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="50px"
-                android:gravity="center"
-                android:text="Cintaku Jauh di Pulau"
-                android:textAllCaps="false"
-                android:textSize="40sp"
-                android:textStyle="bold"
-                app:fontFamily="@font/azurite" />
-
-            <TextView
-                android:id="@+id/text8"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_vertical|end"
-                android:layout_marginTop="50px"
-                android:gravity="fill_horizontal"
-                android:text="Cintaku jauh di pulau,\nGadis manis, sekarang iseng sendiri. \n\nPerahu melancar, bukan memancar\nDi leher kukalungkan oleh-oleh buat si pacar\nAngin membantuku, laut terang, tapi terasa \naku tidak 'kan sampai padanya'.\n\nDi air yang tenang, di angin mendayu\nDi perasaan penghabisan segala melaju\nAjal bertakhta, sambil berkata: \n&quot;tujukan perahu ke pangkuanku saja&quot;.\n\nAmboi! Jalan sudah bertahun kutempuh! \nPerahu yang bersama 'kan merapuh! \nMengapa ajal memanggil dulu\nSebelum sempat berpeluk dengan cintaku\n\nManisku jauh di pulau, \nKalau 'ku mati, dia mati  iseng sendiri"
-                android:textSize="20sp"
-                android:textStyle="normal"
-                app:fontFamily="@font/azurite" />
-            <TextView
-                android:id="@+id/sumber4"
-                android:textAlignment="textEnd"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="(Deru Campur Debu, 1960)"
-                android:gravity="end"
-                android:textSize="20sp"
-                android:textStyle="italic"
-                app:fontFamily="@font/azurite"/>
 
             <TextView
                 android:id="@+id/sumberAsal"
